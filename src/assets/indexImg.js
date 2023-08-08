@@ -1,0 +1,9 @@
+export {default as banner } from './img/banner.jpg';
+export {default as blog1 } from './img/blog1.jpg';
+export {default as blog2 } from './img/blog2.jpg';
+export {default as blog3 } from './img/blog3.jpg';
+export {default as contacto } from './img/contacto.jpg';
+export {default as curso1 } from './img/curso1.jpg';
+export {default as curso2 } from './img/curso2.jpg';
+export {default as curso3 } from './img/curso3.jpg';
+export {default as nosotros } from './img/nosotros.jpg';
