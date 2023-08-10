@@ -1,11 +1,14 @@
 import styled from "styled-components";
 
 import { size } from "../../Size";
-import * as pictures from '../../assets/indexImg'
+import * as pictures from '../../assets/indexImg';
+import { Div } from "../styled-reuse/GlobalStyled";
 
+
+// Others
 const StyledH3 = styled.h3``;
 
-const StyledBlog = styled.div`
+const StyledBlog = styled(Div)`
     @media (min-width: ${size.desktop}) {
         display: grid;
         grid-template-columns: 2fr 1fr;
@@ -15,8 +18,8 @@ const StyledBlog = styled.div`
 const StyledMain = styled.main``;
 const StyledAside = styled.aside``;
 const StyledArticle = styled.article``;
-const StyledImg = styled.div``;
-const StyledInputContainer = styled.div``;
+const StyledImg = styled(Div)``;
+const StyledInputContainer = styled(Div)``;
 const StyledH4 = styled.h4``;
 const StyledP = styled.p``;
 

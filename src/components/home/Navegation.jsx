@@ -1,5 +1,7 @@
 import styled from "styled-components";
+
 import { size } from "../../Size";
+import { HyperLink } from "../styled-reuse/GlobalStyled";
 
 const StyledNavegacion = styled.nav`
     @media (min-width: ${size.desktop}) {   
@@ -7,11 +9,9 @@ const StyledNavegacion = styled.nav`
       gap: 2rem;
     }
 `;
-const StyledNavegacion__enlace = styled.a`
+const StyledNavegacion__enlace = styled(HyperLink)`
     display: block;
-    text-align: center;
     font-size: 1.8rem;
-    color: var(--blanco);
 `;
 
 export default function Navegacion(){

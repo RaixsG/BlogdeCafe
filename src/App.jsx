@@ -1,9 +1,10 @@
 import styled from 'styled-components';
 
 import background from './assets/img/banner.jpg';
-import './App.css';
 import { size } from './Size';
-
+// Styled
+import { Div, HyperLink } from './components/styled-reuse/GlobalStyled';
+// Components
 import Blog from './components/home/Blog';
 import Navegacion from './components/home/Navegation';
 
@@ -15,19 +16,17 @@ const Header = styled.header`
     background-position: center center;
 `;
 
-const Contenedor = styled.div``;
+const Contenedor = styled(Div)``;
 
-const Barra = styled.div`
+const Barra = styled(Div)`
   @media (min-width: ${size.desktop}) {   
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
 `;
-const Logo = styled.a`
-    color: var(--blanco);
+const Logo = styled(HyperLink)`
     margin: 0;
-    text-align: center;
 `;
 const Logo__nombre = styled.h1`
     font-weight: 400;
@@ -36,7 +35,7 @@ const Logo__bold = styled.span`
     font-weight: 700;
 `;
 
-const Header__texto = styled.div`
+const Header__texto = styled(Div)`
     text-align: center;
     color: var(--blanco);
     margin-top: 5rem;
