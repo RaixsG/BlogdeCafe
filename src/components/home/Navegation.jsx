@@ -4,6 +4,8 @@ import { size } from "../../Size";
 import { HyperLink } from "../styled-reuse/GlobalStyled";
 
 const StyledNavegacion = styled.nav`
+
+    /* margin: 0 .5rem; */
     @media (min-width: ${size.desktop}) {   
       display: flex;
       gap: 2rem;

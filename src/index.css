@@ -4,6 +4,7 @@
 
   --primario: #784D3C;
   --blanco: #f5f5f5;
+  --gris: #d0d0d0;
   --negro: #222;
   --backgroundTheme: #222;
 }
@@ -28,29 +29,3 @@ body {
   width: 90%;
   margin: 0 auto;
 }
-
-h1, h2, h3, h4 {
-  font-family: var(--fuenteHeading);
-}
-
-h1 {
-  font-size: 4.8rem;
-}
-
-h2 {
-  font-size: 4rem;
-}
-
-h3 {
-  font-size: 3.2rem;
-}
-
-h4 {
-  font-size: 2.8rem;
-}
-
-img {
-  max-width: 100%;
-}
-
-
